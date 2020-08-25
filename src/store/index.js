@@ -4,8 +4,8 @@ export default createStore({
   state: {
     groups: [1]
   },
-  mutations,
-  actions,
+  // mutations,
+  // actions,
   modules: {
     moduleA
   },
