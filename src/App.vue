@@ -4,7 +4,7 @@
       <router-link to="/">Home</router-link> |
       <router-link to="/about">About</router-link> |
       <router-link to="/VModel">VModel</router-link> |
-      <router-link to="/NextTick">NextTick</router-link>
+      <router-link to="/Tab">Tab</router-link>
     </div>
     <router-view/>
   </div>

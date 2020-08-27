@@ -22,9 +22,14 @@ const routes = [
     component: () => import('../views/VModel.vue') 
   },
   {
-    path: '/NextTick',
-    name: 'NextTick',
-    component: () => import('../views/NextTick.vue')
+    path: '/Tab',
+    name: 'Tab',
+    component: () => import('../views/TabTest.vue')
+  },
+  {
+    path:'/Toolipt',
+    name: 'Toolipt',
+    component: () => import('../views/Toolipt')
   }
 ]
 
