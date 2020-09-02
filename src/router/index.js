@@ -30,6 +30,11 @@ const routes = [
     path:'/Toolipt',
     name: 'Toolipt',
     component: () => import('../views/Toolipt')
+  },
+  {
+    path:'/Mixin',
+    name: 'Mixin',
+    component: () => import('../views/Mixin')
   }
 ]
 
