@@ -3,7 +3,8 @@
   <div>
     <li class="item">
       <input v-model="checked" type="checkbox" />
-      <slot name="item" :checked="checked"></slot> // 将checked的值传递给父组件
+      <slot name="item" :checked="checked"></slot> 
+      <!-- 将checked的值传递给父组件 -->
     </li>
   </div>
 </template>
@@ -11,8 +12,8 @@
 export default {
   data() {
     return {
-      checked: false
+      checked: false,
     };
-  }
+  },
 };
 </script>
