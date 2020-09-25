@@ -28,6 +28,15 @@ export default {
   // 通过inject 将form组件注入的实例添加进来
   // 在form中，我们通过provide返回了一个对象，在input中，我们可以通过inject获取form中返回对象中的项，如上代码inject:['customForm']所示，然后就可以在组件内通过this.customForm调用form实例上面的属性与方法了
   inject: ['customForm'],
+  // inject: {
+  //   // 注入的属性名称 更改注入的属性名
+  //   parentForm: {
+  //     // 通过 from 指定从哪个属性注入
+  //     from: 'customForm',
+  //     default: () => ({
+  //       size: 'default'
+  //     })
+  // }
   computed: {
     // 通过计算组件获取组件的size, 如果当前组件传入，则使用当前组件的，否则是否form组件的
     getSize() {
